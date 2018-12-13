@@ -1,0 +1,40 @@
+<div class="row sidebar sticky-top">
+  <div class="col-12">
+    <div class="row h-25">
+      <div class="col-12 text-center">
+        <div class="logo-container">
+          <i class="fab fa-dropbox logo"></i>
+        </div>
+      </div>
+    </div>
+    <div class="row h-50">
+      <div class="col-12">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/files']" routerLinkActive="active">Files</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/photos']" routerLinkActive="active">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/shared']" routerLinkActive="active">Shared</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/links']" routerLinkActive="active">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/events']" routerLinkActive="active">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/get-started']" routerLinkActive="active">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row h-25 align-items-end">
+      <div class="col-12">
+        <div class="photos-total-size">Total size: {{totalSize | fileSize}}</div>
+      </div>
+    </div>
+  </div>
+</div>

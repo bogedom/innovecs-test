@@ -1,0 +1,17 @@
+.photos-header {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #636363;
+
+  .nav {
+    .nav-item {
+      cursor: pointer;
+      .nav-link {
+        &.active {
+          color: white;
+          background-color: #1B263B;
+        }
+      }
+    }
+  }
+}
+

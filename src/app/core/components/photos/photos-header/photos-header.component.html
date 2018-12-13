@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row photos-header">
+    <div class="col-6"></div>
+    <div class="col-6 text-right">
+      <ul class="nav nav-pills justify-content-end">
+        <li class="nav-item" *ngFor="let tab of tabs">
+          <a class="nav-link"
+             [ngClass]="{'active': tab === selectedTab}"
+             (click)="onChangeTab(tab)">{{tab.title}}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

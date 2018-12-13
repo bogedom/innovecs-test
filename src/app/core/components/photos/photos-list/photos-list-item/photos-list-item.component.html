@@ -1,0 +1,13 @@
+<div class="row photo" *ngIf="photo.url">
+  <div class="col-12">
+    <div class="photo-image">
+      <img src="{{photo.url}}" alt="{{photo.name}}">
+    </div>
+    <div class="photo-name">
+      {{photo.name}}
+    </div>
+    <div class="photo-size">
+      {{photo.size | fileSize}}
+    </div>
+  </div>
+</div>

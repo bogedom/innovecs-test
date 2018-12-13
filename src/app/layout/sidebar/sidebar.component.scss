@@ -1,0 +1,36 @@
+.sidebar {
+  background-color: #1B263B;
+  padding: 1em;
+  height: 100vh;
+
+  .logo-container {
+    padding: 1em 0 3em;
+
+    .logo {
+      color: deepskyblue;
+      font-size: 3em;
+    }
+  }
+
+  .nav {
+    .nav-item {
+      .nav-link {
+        color: #636363;
+        padding-left: 0;
+
+        &.active {
+          color: white;
+        }
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .photos-total-size {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}

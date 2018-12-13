@@ -1,0 +1,17 @@
+.photo {
+  margin-bottom: 2em;
+
+  .photo-image {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .photo-name {
+    font-weight: bold;
+  }
+  .photo-size {
+    color: grey;
+    text-transform: uppercase;
+  }
+}
